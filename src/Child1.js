@@ -8,9 +8,6 @@
 
 import React, { Component } from 'react';
 import './App.css';
-
-// import b from './Child2';
-// import Child1 from './Child1';
 let x = 0;
 console.log("Child1 evaluation");
 class Child1 extends Component {
@@ -20,7 +17,6 @@ class Child1 extends Component {
         console.log("Child1 consructor")
     }
     render() {
-
         return (
             <div className="App">
                 "================Child===================="
